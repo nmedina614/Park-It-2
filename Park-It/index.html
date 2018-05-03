@@ -6,6 +6,10 @@
     <link rel="stylesheet" href="styles/park-it.css">
     <link rel="stylesheet" href="styles/park-it-android.css">
     <title>Park-It</title>
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.slim.js"
+            integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+            crossorigin="anonymous"></script>
     <script>
         function initMap() {
             var grc = {lat: 47.313582, lng: -22.1800072} ;
@@ -25,6 +29,10 @@
         }
     </script>
     <script type="text/javascript" src="js/park-it.js"></script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOxkhdMUz50X8nBADdLHYG0QM0_Mf4ups&callback=initMap">
+
+    </script>
 </head>
 <body>
 
@@ -45,10 +53,5 @@
         <div id="map">Map here</div>
         <div id="directions">Directions here</div>
     </div>
-
-    <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOxkhdMUz50X8nBADdLHYG0QM0_Mf4ups&callback=initMap">
-
-    </script>
 </body>
 </html>
