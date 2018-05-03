@@ -1,4 +1,3 @@
-alert('test');
 
 $('#park').click(function(){
 
